@@ -1,0 +1,117 @@
+/*body {
+    margin: 0;
+    padding: 0;*/
+    /*background-color:#B6FFFB;*/
+    /*background-color: #6ec1ea;*/
+    /*background-color: #A8D0E6;*/
+    /*background-image: linear-gradient(to right,#f2f3f4, #a3a7aa);*/
+    /*background-color: #f2f3f4;
+    font-family: sans-serif;*/
+    /*color: #838587;*/
+/*}*/
+
+/*body {
+    background-image: url('BG.jpeg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}*/
+.second{
+    /*color: #06226a;*/
+    color:black;
+    
+    
+}
+.sidebysidediv{
+    display: inline;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    width: 800px;
+    height: 100px;
+    
+  }
+  
+    /*.line{
+            
+            border-bottom:1px solid white;
+            width: 90%;
+            margin-left: 67px;
+                      
+           
+            
+        
+    }*/
+    .Bbot{
+        height: 60px;
+        width:50px;
+        margin-top: 38px;
+        margin-left: 70px;
+        /*background-color: #F76C6C;*/
+        /*
+        .BB
+        color:black;
+        height: 80px;
+        width:40px;
+        font-size: 30px;
+        background-color: #f69696;
+        text-align: center;
+        margin-top: 25px;
+        margin-left: 68px;
+    */
+    }
+    /*
+    .Bcls{
+        margin-top: 5px;
+        width: 40px;
+        height: 80px;
+    }
+    */
+    .second{
+        display: inline;
+        float:left;
+        font-size: 30px;
+        margin-top: 7px;
+        margin-left: 10px;
+        
+    }
+    .third{
+        padding-top: 0px;
+    }
+    .FullCircle{
+        margin-left: -60px;
+        margin-top: 60px;
+    }
+    .SmallCircle{
+        width:80px;
+        height:80px;
+        margin-bottom:30px;
+    }
+    .SmallestCircle{
+        width:20px;
+        height:20px;
+        margin-bottom: 10px;
+    }
+
+    .RightFullCircle2{
+        margin-right:-10px;
+        width:180px;
+        margin-left: 670px;
+        margin-top: -80px;
+    }
+    
+    .RightCircle1{
+        margin-right:-600px;
+        width:60px;
+        margin-left: 500px;
+        
+
+    }
+
+    .BRFullCircle2{
+        margin-bottom: -200px;
+        width:300px;
+        margin-left: 1140px;
+    }
+   

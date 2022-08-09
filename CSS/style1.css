@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins" , sans-serif;
+}
+/* body
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    min-height: 100vh;
+    background: white;
+} */
+.about
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    min-height: 50vh;
+}
+.box2
+{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    background: #060621;
+    transition: 0.5s;
+}
+.box2:hover
+{
+    height: 300px;
+}
+.box2 .imgBx
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.box2 .imgBx img
+{
+    max-width: 100%;
+    opacity: 0.1;
+    transition: 0.5s;
+}
+.box2:hover .imgBx img
+{
+    opacity: 1;
+}
+.box2:before
+{
+    content:'';
+    position: absolute;
+    top:-2px;
+    left:-2px;
+    right: -2px;
+    bottom: -2px;
+    background: #fff;
+    z-index: -1;
+}
+.box2:after
+{
+    content:'';
+    position: absolute;
+    top:-2px;
+    left:-2px;
+    right: -2px;
+    bottom: -2px;
+    background: #fff;
+    z-index: -2;
+    filter:blur(40px);
+}
+.box2:before,
+.box2:after
+{
+    background: linear-gradient(235deg,rgb(252, 94, 170),white,black);
+}
+.box2:nth-child(2):before,
+.box2:nth-child(2):after
+{
+    background: linear-gradient(235deg,rgb(252, 94, 170),white,black);
+}
+.box2:nth-child(3):before,
+.box2:nth-child(3):after
+{
+    background: linear-gradient(235deg,rgb(252, 94, 170),white,black);
+}
+.box2 .content
+{
+    position: absolute;
+    bottom: 0;
+    left: 10px;
+    right: 10px;
+    height: 90px;
+    background: rgba(0, 0, 0, 0.4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    opacity: 0;
+    transition: 0.5s;
+}
+.box2:hover .content
+{
+    opacity: 1;
+}
+.box2 .content h2
+{
+    font-size: 20px;
+    color: #fff;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 1px;
+}
+.box2 .content h2 span
+{
+    font-size: 14px;
+    color: #fff;
+    font-weight: 200;
+    line-height: 20px;
+    letter-spacing: 2px;
+}
